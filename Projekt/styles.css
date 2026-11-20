@@ -1,19 +1,23 @@
-body {
-    font-family: Arial, sans-serif;
+body {font-family: Arial, sans-serif;
     text-align: center;
     background-color: #f2f2f2;
-    padding: 50px;
-}
+    padding: 50px;}
 
-h1 {
-    color: #333;
-}
+h1 {color: #333;}
 
-button {
-    background-color: #2563eb;
+button {background-color: #2563eb;
     color: white;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-}
+
+/* Abstand zwischen den Buttons */
+    margin: 5px;}
+
+/* Abstand oberhalb der Quizfrage */
+h2 {margin-top: 40px;}
+
+/* Text der ausgewählten Antwort */
+#auswahl {font-weight: bold;
+    margin-top: 20px;}
